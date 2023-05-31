@@ -1,8 +1,56 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<style>
+    body {
+        background-image: url("@Url.Content("~/images/img.jpg")");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+</style>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+
+@using (Html.BeginForm())
+{
+    <h1>Tu Secr3to</h1>
+
+    <div class="container d-flex justify-content-center">
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje:</label>
+                        <textarea class="form-control" id="Texto" name="Texto" rows="5"  ></textarea>
+                    </div>
+                    <div class="mb-">
+                        <label for="nombre" class="form-label">Apodo(opcional):</label>
+                        <input type="text" class="form-control" id="Apodo" name="Apodo"  >
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">El mensaje anonimo llegara por:</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="preferencia" id="twitter" value="Twitter"  >
+                            <label class="form-check-label" for="twitter">Twitter</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="preferencia" id="Mail" value="Mail">
+                            <label class="form-check-label" for="Mail">Mail</label>
+                        </div>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="apellido" class="form-label">User/E-mail:</label>
+                        <input type="text" class="form-control" id="User" name="User"  >
+
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+}

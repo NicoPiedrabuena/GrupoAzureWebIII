@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q0ky0P01YTMtihJvyRBwHjEdTgwXLti87GPyfeEb2tE=",
+  "Hash": "TGdb3LJmRmBox1al1yCP0EXMa2eHOPV37/oD4PyOB3M=",
   "Source": "GrupoAzureWebIII",
   "BasePath": "_content/GrupoAzureWebIII",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\wwwroot\\css\\styles.css",
+      "SourceId": "GrupoAzureWebIII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\wwwroot\\",
+      "BasePath": "_content/GrupoAzureWebIII",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\wwwroot\\favicon.ico",
       "SourceId": "GrupoAzureWebIII",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\wwwroot\\images\\img.jpg",
+      "SourceId": "GrupoAzureWebIII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\wwwroot\\",
+      "BasePath": "_content/GrupoAzureWebIII",
+      "RelativePath": "images/img.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\img.jpg"
     },
     {
       "Identity": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\wwwroot\\js\\site.js",
