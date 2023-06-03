@@ -8179,19 +8179,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BANGHO\\.nuget\\packages\\": {}
+    "C:\\Users\\manuc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
+      "projectUniqueName": "C:\\Users\\manuc\\Desktop\\carpeta git\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
       "projectName": "GrupoAzureWebIII",
-      "projectPath": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
-      "packagesPath": "C:\\Users\\BANGHO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\obj\\",
+      "projectPath": "C:\\Users\\manuc\\Desktop\\carpeta git\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
+      "packagesPath": "C:\\Users\\manuc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\manuc\\Desktop\\carpeta git\\GrupoAzureWebIII\\GrupoAzureWebIII\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\BANGHO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\manuc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
