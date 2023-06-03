@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "+0aoT/eX3PQZzNtP1aZGyVXOVP0nslTNq3haSA7U4lyl1jROY6tESZsKQ3q9A3bvzP6G9Xb8tTlfWYgAnUBvhw==",
   "success": true,
   "projectFilePath": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
@@ -167,11 +166,12 @@
     "C:\\Users\\BANGHO\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\BANGHO\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-=======
-  "dgSpecHash": "R304KkR69FgR1TgZQAkNrvAvwxFqVlrPPmQp/OCUbyExB+Xy7oxYGeztNPiIbEIcVAM3h1a/on4XNvnyzXAevw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\manuc\\Desktop\\carpeta git\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
-  "expectedPackageFiles": [],
->>>>>>> 2eb717d8507fead2b6345019e638da3eb4be5dfd
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

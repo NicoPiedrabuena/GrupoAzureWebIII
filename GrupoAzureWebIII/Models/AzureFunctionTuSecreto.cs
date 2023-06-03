@@ -32,7 +32,7 @@ public class AzureFunctionTuSecreto
         var response = await _httpClient.PostAsync(url, content);  
         if (response.IsSuccessStatusCode)
         {
-            var responseContent = await response.Content.ReadAsStringAsync();
+           await response.Content.ReadAsStringAsync();
             return  ("success");
         }
         return ("error");
