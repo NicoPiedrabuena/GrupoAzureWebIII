@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj": {}
+    "D:\\Facultad\\Web III\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj": {
+    "D:\\Facultad\\Web III\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
+        "projectUniqueName": "D:\\Facultad\\Web III\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
         "projectName": "GrupoAzureWebIII",
-        "projectPath": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
-        "packagesPath": "C:\\Users\\BANGHO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\obj\\",
+        "projectPath": "D:\\Facultad\\Web III\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
+        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultad\\Web III\\GrupoAzureWebIII\\GrupoAzureWebIII\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\BANGHO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,6 +55,12 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -76,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

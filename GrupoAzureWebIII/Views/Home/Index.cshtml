@@ -19,39 +19,38 @@
     <div class="container d-flex justify-content-center">
         <div class="card">
             <div class="card-body">
-                <form>
+                <form method="post" action="/EnviarMensaje">
                     <div class="mb-3">
                         <label for="mensaje" class="form-label">Mensaje:</label>
                         <textarea class="form-control" id="Texto" name="Texto" rows="5"  ></textarea>
                     </div>
                     <div class="mb-">
                         <label for="nombre" class="form-label">Apodo(opcional):</label>
-                        <input type="text" class="form-control" id="Apodo" name="Apodo"  >
+                        <input type="text" class="form-control" id="Apodo" name="Apodo">
 
                     </div>
                     <div class="mb-3">
                         <label class="form-label">El mensaje anonimo llegara por:</label>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="preferencia" id="twitter" value="Twitter"  >
-                            <label class="form-check-label" for="twitter">Twitter</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="preferencia" id="Mail" value="Mail">
-                            <label class="form-check-label" for="Mail">Mail</label>
+                        <div> 
+                            <input type="checkbox" id="publicarTwitter" name="publicarTwitter" value="true" /> 
+                            <label for="publicarTwitter">Publicar en Twitter</label> 
+                           </div> 
+                            
+                           <div> 
+                                <input type="checkbox" id="enviarEmail" name="enviarEmail" value="true" /> 
+                            <label for="enviarEmail">Enviar por correo electrónico</label> 
                         </div>
 
                     </div>
                     <div class="mb-3">
-                        <label for="apellido" class="form-label">User/E-mail:</label>
+                        <label for="user" class="form-label">User/E-mail:</label>
                         <input type="text" class="form-control" id="User" name="User"  >
 
                     </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary" action="/Confirmacion">Enviar</button>
                 </form>
 
-                <form method="post" action="/Home/GoAzure">
-                    <button type="submit">ACCION DE AZURE TWITTER</button>
-                </form>
+               
             </div>
         </div>
     </div>
