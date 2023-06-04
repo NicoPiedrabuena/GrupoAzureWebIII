@@ -51,8 +51,14 @@ namespace GrupoAzureWebIII.Controllers
                                                             bool publicarTwitter,
                                                             bool enviarEmail,
                                                             string user)
+
+
     {
-        if (publicarTwitter)
+        string enviarMailApiKey = "4o7pi4RkG5eeewDF7iVBIMYZw76k7YxBQadnMH_jA9FNAzFujT2_pQ==";
+        string enviarTuitApiKey = "wnTR9oLhe31T1494bixlG0i_RTfrYwVJlYLj7NYLjKBfAzFuPGPOrg==";
+
+
+            if (publicarTwitter)
         {
             // Ejecutar lógica para publicar en Twitter utilizando la biblioteca adecuada
             using (HttpClient client = new HttpClient())
@@ -62,7 +68,7 @@ namespace GrupoAzureWebIII.Controllers
                     // Crea el contenido del cuerpo (body) de la solicitud
                     string requestBody = $"{{\"message\":\"{mensaje}\",\"name\":\"{user}\"}}";
                         // Agrega los encabezados (headers) de la solicitud
-                        client.DefaultRequestHeaders.Add("x-functions-key", "wnTR9oLhe31T1494bixlG0i_RTfrYwVJlYLj7NYLjKBfAzFuPGPOrg==");
+                        client.DefaultRequestHeaders.Add("x-functions-key", enviarTuitApiKey);
                     // Realiza una solicitud POST a la API
                     HttpResponseMessage response = await client.PostAsync("https://connecttoapi.azurewebsites.net/api/TweetFunction",
                                                                     new StringContent(requestBody, Encoding.UTF8, "application/json"));
@@ -74,6 +80,7 @@ namespace GrupoAzureWebIII.Controllers
                         string jsonResponse = await response.Content.ReadAsStringAsync();
                         // Procesa la respuesta JSON según sea necesario
                         Console.WriteLine(jsonResponse);
+                        return RedirectToAction("Confirmacion");
                     }
 
 
@@ -86,6 +93,9 @@ namespace GrupoAzureWebIII.Controllers
                     {
                         // Si la respuesta no es exitosa, muestra el código de estado
                         Console.WriteLine($"Error en la solicitud. Código de estado: {response.StatusCode}");
+                        
+                        ViewBag.mensajeError = "Algo salió mal";
+                        return View("Index");
                     }
                 }
                 catch (Exception ex)
@@ -119,7 +129,7 @@ namespace GrupoAzureWebIII.Controllers
 
 
                 // Hacer la solicitud HTTP al endpoint de la función "SendEmail"
-                HttpResponseMessage response = await client.PostAsync("https://{direccion-url-azure}/api/SendEmail",
+                HttpResponseMessage response = await client.PostAsync("https://connecttoapi.azurewebsites.net/api/SendEmail",
                                                     new StringContent(requestBody, Encoding.UTF8, "application/json"));
 
 
