@@ -1,72 +1,3 @@
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\appsettings.json
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.staticwebassets.runtime.json
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.exe
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.deps.json
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.runtimeconfig.json
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.pdb
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.csproj.AssemblyReference.cache
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.AssemblyInfoInputs.cache
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.AssemblyInfo.cs
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.csproj.CoreCompileInputs.cache
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.RazorAssemblyInfo.cache
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.RazorAssemblyInfo.cs
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets\msbuild.GrupoAzureWebIII.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets\msbuild.build.GrupoAzureWebIII.props
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GrupoAzureWebIII.props
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GrupoAzureWebIII.props
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\scopedcss\bundle\GrupoAzureWebIII.styles.css
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\scopedcss\projectbundle\GrupoAzureWebIII.bundle.scp.css
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\refint\GrupoAzureWebIII.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.pdb
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.genruntimeconfig.cache
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\ref\GrupoAzureWebIII.dll
-<<<<<<< HEAD
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Azure.Core.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Google.Protobuf.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Grpc.Core.Api.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Grpc.Net.Client.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Grpc.Net.Common.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Net.Http.Formatting.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.WebApiCompatShim.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.Core.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.Grpc.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Host.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.WebJobs.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Extensions.Http.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Memory.Data.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.csproj.CopyComplete
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.Extensions.Abstractions.dll
-C:\Users\BANGHO\source\repos\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.Extensions.Http.dll
-=======
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\appsettings.json
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.staticwebassets.runtime.json
@@ -75,11 +6,54 @@ C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\n
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.runtimeconfig.json
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.dll
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.pdb
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Grpc.Core.Api.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Grpc.Net.Client.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Grpc.Net.Common.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Humanizer.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.WebApiCompatShim.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.Core.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.Extensions.Abstractions.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.Extensions.Http.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.Grpc.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Host.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.WebJobs.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Extensions.Http.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.csproj.AssemblyReference.cache
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.AssemblyInfoInputs.cache
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.AssemblyInfo.cs
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.csproj.CoreCompileInputs.cache
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.RazorAssemblyInfo.cache
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.RazorAssemblyInfo.cs
@@ -93,85 +67,9 @@ C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\n
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\scopedcss\bundle\GrupoAzureWebIII.styles.css
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\scopedcss\projectbundle\GrupoAzureWebIII.bundle.scp.css
+C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.csproj.CopyComplete
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.dll
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\refint\GrupoAzureWebIII.dll
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.pdb
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.genruntimeconfig.cache
 C:\Users\manuc\Desktop\carpeta git\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\ref\GrupoAzureWebIII.dll
->>>>>>> 2eb717d8507fead2b6345019e638da3eb4be5dfd
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\appsettings.Development.json
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\appsettings.json
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.staticwebassets.runtime.json
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.exe
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.deps.json
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.runtimeconfig.json
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\GrupoAzureWebIII.pdb
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Azure.Core.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Google.Protobuf.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Grpc.Core.Api.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Grpc.Net.Client.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Grpc.Net.Common.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Net.Http.Formatting.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.WebApiCompatShim.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.Core.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.Extensions.Abstractions.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.Extensions.Http.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.Functions.Worker.Grpc.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Host.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.WebJobs.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Extensions.Http.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Newtonsoft.Json.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Memory.Data.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.csproj.AssemblyReference.cache
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.GeneratedMSBuildEditorConfig.editorconfig
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.AssemblyInfoInputs.cache
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.AssemblyInfo.cs
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.csproj.CoreCompileInputs.cache
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.MvcApplicationPartsAssemblyInfo.cs
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.MvcApplicationPartsAssemblyInfo.cache
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.RazorAssemblyInfo.cache
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.RazorAssemblyInfo.cs
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets\msbuild.GrupoAzureWebIII.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets\msbuild.build.GrupoAzureWebIII.props
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GrupoAzureWebIII.props
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GrupoAzureWebIII.props
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets.pack.json
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets.build.json
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\staticwebassets.development.json
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\scopedcss\bundle\GrupoAzureWebIII.styles.css
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\scopedcss\projectbundle\GrupoAzureWebIII.bundle.scp.css
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.csproj.CopyComplete
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\refint\GrupoAzureWebIII.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.pdb
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\GrupoAzureWebIII.genruntimeconfig.cache
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\obj\Debug\net6.0\ref\GrupoAzureWebIII.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Humanizer.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\Mono.TextTemplating.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.CodeDom.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Text.Encodings.Web.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\System.Text.Json.dll
-D:\Facultad\Web III\GrupoAzureWebIII\GrupoAzureWebIII\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

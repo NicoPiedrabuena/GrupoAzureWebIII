@@ -10,8 +10,8 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Net.Mail;
 using System.Threading.Tasks;
+using Newtonsoft.Json.Linq;
 
- 
 
 public static class EnviarEmail
 
@@ -29,19 +29,21 @@ public static class EnviarEmail
 
         var requestBody = await new StreamReader(req.Body).ReadToEndAsync();
 
-        dynamic data = JsonConvert.DeserializeObject(requestBody);
+        var data = (JObject)JsonConvert.DeserializeObject(requestBody);
 
 
 
         var senderEmail = "pweb3grupoazure@gmail.com";
 
-        var senderName = "Nombre del remitente"; // Puedes personalizar este valor
+        
+        
+        var senderName = "Anónimo"; // Puedes personalizar este valor
 
-        var recipientEmail = "rodrigo.pereira@outlook.es";
+        var recipientEmail = data.SelectToken("user")?.Value<string>();
 
         var subject = "descargo anonimo";
 
-        var content = "esta es una prueba";
+        var content = data.SelectToken("message")?.Value<string>();
 
         var sendGridApiKey = "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";
 

@@ -1,5 +1,8 @@
-﻿@{
+﻿@model GrupoAzureWebIII.ViewModels.FormViewModel
+
+@{
     ViewData["Title"] = "Home Page";
+    var mensajeError = ViewBag.mensajeError;
 }
 <style>
     body {
@@ -12,45 +15,43 @@
 
 
 
-@using (Html.BeginForm())
+@using (Html.BeginForm("EnviarMensaje","Home", FormMethod.Post))
 {
     <h1>Tu Secr3to</h1>
 
-    <div class="bg-danger">@ViewBag.mensajeError</div>
+    <div class="bg-danger">@mensajeError</div>
 
     <div class="container d-flex justify-content-center">
         <div class="card">
             <div class="card-body">
-                <form method="post" action="/EnviarMensaje">
                     <div class="mb-3">
                         <label for="mensaje" class="form-label">Mensaje:</label>
-                        <textarea class="form-control" id="Texto" name="Texto" rows="5"  ></textarea>
+                        @Html.TextAreaFor(f=> f.mensaje)
                     </div>
                     <div class="mb-">
-                        <label for="nombre" class="form-label">Apodo(opcional):</label>
-                        <input type="text" class="form-control" id="Apodo" name="Apodo">
+                        <label for="user" class="form-label">Apodo(opcional):</label>
+                        @Html.TextBoxFor(f => f.apodo)
 
                     </div>
                     <div class="mb-3">
                         <label class="form-label">El mensaje anonimo llegara por:</label>
                         <div> 
-                            <input type="checkbox" id="publicarTwitter" name="publicarTwitter" value="true" /> 
+                            @Html.CheckBoxFor(f=> f.publicarTwitter)
                             <label for="publicarTwitter">Publicar en Twitter</label> 
-                           </div> 
+                        </div> 
                             
-                           <div> 
-                                <input type="checkbox" id="enviarEmail" name="enviarEmail" value="true" /> 
+                        <div> 
+                               @Html.CheckBoxFor(f=> f.publicarEmail)
                             <label for="enviarEmail">Enviar por correo electrónico</label> 
                         </div>
 
                     </div>
                     <div class="mb-3">
                         <label for="user" class="form-label">User/E-mail:</label>
-                        <input type="text" class="form-control" id="User" name="User"  >
+                        @Html.TextBoxFor(f => f.user)
 
                     </div>
-                    <button type="submit" class="btn btn-primary" asp-action="Confirmacion">Enviar</button>
-                </form>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
 
                
             </div>

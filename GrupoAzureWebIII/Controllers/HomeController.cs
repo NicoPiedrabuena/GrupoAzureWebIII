@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Text.Json;
 using System.Text;
+using GrupoAzureWebIII.ViewModels;
 
 namespace GrupoAzureWebIII.Controllers
 {
@@ -47,10 +48,7 @@ namespace GrupoAzureWebIII.Controllers
 
     [HttpPost]
     //editar elementos de entrada y a donde dirigirlos dependiendo la opcion ....
-    public async Task<IActionResult> EnviarMensaje(string mensaje,
-                                                            bool publicarTwitter,
-                                                            bool enviarEmail,
-                                                            string user)
+    public async Task<IActionResult> EnviarMensaje(FormViewModel form)
 
 
     {
@@ -58,7 +56,7 @@ namespace GrupoAzureWebIII.Controllers
         string enviarTuitApiKey = "wnTR9oLhe31T1494bixlG0i_RTfrYwVJlYLj7NYLjKBfAzFuPGPOrg==";
 
 
-            if (publicarTwitter)
+            if (form.publicarTwitter)
         {
             // Ejecutar lógica para publicar en Twitter utilizando la biblioteca adecuada
             using (HttpClient client = new HttpClient())
@@ -66,7 +64,7 @@ namespace GrupoAzureWebIII.Controllers
                 try
                 {
                     // Crea el contenido del cuerpo (body) de la solicitud
-                    string requestBody = $"{{\"message\":\"{mensaje}\",\"name\":\"{user}\"}}";
+                    string requestBody = $"{{\"message\":\"{form.mensaje}\",\"name\":\"{form.user}\"}}";
                         // Agrega los encabezados (headers) de la solicitud
                         client.DefaultRequestHeaders.Add("x-functions-key", enviarTuitApiKey);
                     // Realiza una solicitud POST a la API
@@ -109,13 +107,13 @@ namespace GrupoAzureWebIII.Controllers
 
 
 
-        else if (enviarEmail)
+        else if (form.publicarEmail)
         { // Preparar los datos para enviar en la solicitud HTTP
 
 
 
             // Crea el contenido del cuerpo (body) de la solicitud
-            string requestBody = $"{{\"message\":\"{mensaje}\",\"destinatario\":\"{user}\"}}";
+            string requestBody = $"{{\"message\":\"{form.mensaje}\",\"user\":\"{form.user}\"}}";
 
 
 
@@ -124,7 +122,7 @@ namespace GrupoAzureWebIII.Controllers
             using (HttpClient client = new HttpClient())
             {
                 // Agrega los encabezados (headers) de la solicitud
-                client.DefaultRequestHeaders.Add("x-functions-key", "");
+                client.DefaultRequestHeaders.Add("x-functions-key", enviarMailApiKey);
 
 
 
@@ -138,7 +136,7 @@ namespace GrupoAzureWebIII.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     // Redirigir a una acción específica después de enviar el correo electrónico
-                    return RedirectToAction("CorreoElectronicoEnviado");
+                    return RedirectToAction("Confirmacion");
 
 
 
