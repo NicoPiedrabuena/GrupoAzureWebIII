@@ -15,15 +15,14 @@ public class AzureFunctionTuSecreto
         _httpClient = new HttpClient();
     }
 
-    public async Task<string> CallAzureFunction(string? message, string? nombre, int? edad)
+    public async Task<string> CallAzureFunction(string? message, string? nombre)
     {
         var url = "https://connecttoapi.azurewebsites.net/api/TweetFunction";
         var key = "g1Abi09Xg_JLpk-R41dhvHmTwp_FXWwHbaDMh-o7XBdzAzFugsmrCw==";
 
         var payload = new
         {
-            nombre = "Ejemplo",
-            edad = 30,
+            nombre= "Ejemplo",
             mensaje = "Hola desde el cliente"
         };
         _httpClient.DefaultRequestHeaders.Add("x-functions-key", key);

@@ -41,7 +41,7 @@
                     @Html.TextAreaFor(f => f.mensaje, new { @class = "form-control " })
                 </div>
                 <div class="mb-3">
-                    <label for="user" class="form-label">Apodo(opcional):</label>
+                    <label for="apodo" class="form-label">Apodo(opcional):</label>
                     @Html.TextBoxFor(f => f.apodo, new { @class = "form-control" })
 
                 </div>
@@ -57,10 +57,10 @@
                         <label class="form-check-label" for="enviarEmail">Enviar por correo electrónico</label>
                     </div>
 
-                </div>
-                <div class="mb-3">
-                    <label for="user" class="form-label">User/E-mail:</label>
-                    @Html.TextBoxFor(f => f.user, new { @class = "form-control " })
+                    </div>
+                    <div class="mb-3">
+                        <label for="user" class="form-label">Usuario/E-mail:</label>
+                    @Html.TextBoxFor(f => f.user,new {placeholder = "Usuario de Twitter sin @" })
 
                 </div>
                 <button type="submit" class="btn btn-lg btn-primary w-100 ofw-bold">Enviar</button>

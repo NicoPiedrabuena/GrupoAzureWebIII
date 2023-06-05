@@ -63,7 +63,7 @@ namespace GrupoAzureWebIII.Controllers
 
             if (form.publicarTwitter)
             {
-                bool tweetPublicado = await _twitterService.PublicarTweet(form.mensaje, form.user);
+                bool tweetPublicado = await _twitterService.PublicarTweet(form.mensaje,form.apodo,form.user);
                 if (tweetPublicado)
                 {
                     // Hacer algo después de publicar en Twitter
