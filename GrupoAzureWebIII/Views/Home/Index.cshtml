@@ -4,6 +4,13 @@
     ViewData["Title"] = "Home Page";
     var mensajeError = ViewBag.mensajeError;
 }
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
 <style>
     body {
         background-image: url("@Url.Content("~/images/img.jpg")");
@@ -17,43 +24,48 @@
 
 @using (Html.BeginForm("EnviarMensaje","Home", FormMethod.Post))
 {
-    <h1>Tu Secr3to</h1>
 
-    <div class="bg-danger">@mensajeError</div>
+    <h1 class="">Tu Secr3to</h1>
 
     <div class="container d-flex justify-content-center">
         <div class="card">
+            
+            
+            @if (mensajeError != null)
+            {
+                <div class="alert alert-danger mx-3 mt-3">@mensajeError</div>
+            }
             <div class="card-body">
-                    <div class="mb-3">
-                        <label for="mensaje" class="form-label">Mensaje:</label>
-                        @Html.TextAreaFor(f=> f.mensaje)
-                    </div>
-                    <div class="mb-">
-                        <label for="user" class="form-label">Apodo(opcional):</label>
-                        @Html.TextBoxFor(f => f.apodo)
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    @Html.TextAreaFor(f => f.mensaje, new { @class = "form-control " })
+                </div>
+                <div class="mb-3">
+                    <label for="user" class="form-label">Apodo(opcional):</label>
+                    @Html.TextBoxFor(f => f.apodo, new { @class = "form-control" })
 
+                </div>
+                <div class="mb-3">
+                    El mensaje anónimo llegará por:
+                    <div class="form-check ms-1">
+                        @Html.CheckBoxFor(f => f.publicarTwitter, new { @class = "form-check-input " })
+                        <label class="form-check-label" for="publicarTwitter">Publicar en Twitter</label>
                     </div>
-                    <div class="mb-3">
-                        <label class="form-label">El mensaje anonimo llegara por:</label>
-                        <div> 
-                            @Html.CheckBoxFor(f=> f.publicarTwitter)
-                            <label for="publicarTwitter">Publicar en Twitter</label> 
-                        </div> 
-                            
-                        <div> 
-                               @Html.CheckBoxFor(f=> f.publicarEmail)
-                            <label for="enviarEmail">Enviar por correo electrónico</label> 
-                        </div>
 
+                    <div class="form-check ms-1">
+                        @Html.CheckBoxFor(f => f.publicarEmail, new { @class = "form-check-input " })
+                        <label class="form-check-label" for="enviarEmail">Enviar por correo electrónico</label>
                     </div>
-                    <div class="mb-3">
-                        <label for="user" class="form-label">User/E-mail:</label>
-                        @Html.TextBoxFor(f => f.user)
 
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+                <div class="mb-3">
+                    <label for="user" class="form-label">User/E-mail:</label>
+                    @Html.TextBoxFor(f => f.user, new { @class = "form-control " })
 
-               
+                </div>
+                <button type="submit" class="btn btn-lg btn-primary w-100 ofw-bold">Enviar</button>
+
+
             </div>
         </div>
     </div>

@@ -55,7 +55,12 @@ namespace GrupoAzureWebIII.Controllers
     //editar elementos de entrada y a donde dirigirlos dependiendo la opcion ....
     public async Task<IActionResult> EnviarMensaje(FormViewModel form)
     {
-        
+        if (!form.publicarEmail && !form.publicarTwitter)
+        {
+            ViewBag.mensajeError = "Debes seleccionar una opción (Publicar en Twitter / Enviar por Correo Electrónico)";
+            return View("Index");
+        }
+
             if (form.publicarTwitter)
             {
                 bool tweetPublicado = await _twitterService.PublicarTweet(form.mensaje, form.user);
