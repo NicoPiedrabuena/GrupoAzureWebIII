@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design;
 using System.Net.Http;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
@@ -20,12 +21,14 @@ namespace GrupoAzureWebIII
             httpClient = new HttpClient();
         }
 
-        public async Task<bool> PublicarTweet(string mensaje, string user)
+        public async Task<bool> PublicarTweet(string mensaje, string? apodo,string? user)
         {
+
+
             try
             {
                 // Crea el contenido del cuerpo (body) de la solicitud
-                string requestBody = $"{{\"message\":\"{mensaje}\",\"name\":\"{user}\"}}";
+                string requestBody = generarBody(mensaje,apodo,user); 
                
                 // Agrega los encabezados (headers) de la solicitud
                 httpClient.DefaultRequestHeaders.Add("x-functions-key", apiKey);
@@ -55,6 +58,18 @@ namespace GrupoAzureWebIII
                 Console.WriteLine($"Error: {ex.Message}");
                 return false;
             }
+        }
+
+        private string generarBody(string mensaje, string? apodo, string? user)
+        {
+            if (apodo == null)
+                apodo = "anonimo";
+
+            string userString = user != null ? $"@{user}" : string.Empty;
+
+            string body = $"{{\"message\":\"{userString} {mensaje}\",\"name\":\"by: {apodo}\"}}";
+
+            return body;
         }
     }
 
