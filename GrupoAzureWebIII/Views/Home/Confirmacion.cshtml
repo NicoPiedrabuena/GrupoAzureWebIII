@@ -1,5 +1,11 @@
 ﻿@{
     ViewData["Title"] = "Confirmación";
+    var mensajeEstado = ViewBag.mensajeEstado;
+}
+
+@if (mensajeEstado != null)
+{
+    <div class="alert alert-success mx-3 mt-3">@mensajeEstado</div>
 }
 
 <h1>Confirmación</h1>
