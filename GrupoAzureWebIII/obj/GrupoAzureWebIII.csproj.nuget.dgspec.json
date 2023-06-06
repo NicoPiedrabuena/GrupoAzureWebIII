@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BANGHO\\Source\\Repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj": {}
+    "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BANGHO\\Source\\Repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj": {
+    "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BANGHO\\Source\\Repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
+        "projectUniqueName": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
         "projectName": "GrupoAzureWebIII",
-        "projectPath": "C:\\Users\\BANGHO\\Source\\Repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
+        "projectPath": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
         "packagesPath": "C:\\Users\\BANGHO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BANGHO\\Source\\Repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\obj\\",
+        "outputPath": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BANGHO\\AppData\\Roaming\\NuGet\\NuGet.Config",

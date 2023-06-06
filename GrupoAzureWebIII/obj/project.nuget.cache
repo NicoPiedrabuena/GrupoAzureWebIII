@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QE9EQPhX00lFarD4/sSS+sN3cFTBpDcAB29Az4nGJAlZdpswUxSyrBmThmof9OopBtr+EdN1CXW8mxOyRu+IqA==",
+  "dgSpecHash": "P3coTgT2WJV8qaI6fSrt5wNtKfCgePszaYu8k8UC/DZ7dO74Dfx6g01pCroJd7m0qKyGYFEM7ovTVPfudLXH5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BANGHO\\Source\\Repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
+  "projectFilePath": "C:\\Users\\BANGHO\\source\\repos\\GrupoAzureWebIII\\GrupoAzureWebIII\\GrupoAzureWebIII.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BANGHO\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\BANGHO\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
