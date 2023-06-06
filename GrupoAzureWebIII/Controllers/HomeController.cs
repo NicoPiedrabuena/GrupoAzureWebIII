@@ -5,6 +5,7 @@ using System.Text.Json;
 using System.Text;
 using GrupoAzureWebIII.ViewModels;
 using GrupoAzureWebIII.Services;
+using Microsoft.IdentityModel.Tokens;
 
 namespace GrupoAzureWebIII.Controllers
 {
@@ -128,6 +129,11 @@ namespace GrupoAzureWebIII.Controllers
             var mensajes = _dbService.ObtenerMensajes(); 
 
             return View("Mensajes",mensajes);
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
         }
 
 

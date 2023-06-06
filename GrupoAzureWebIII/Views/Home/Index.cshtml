@@ -11,37 +11,6 @@
     }
 }
 
-<style>
-    body {
-        background-color: #DBCFC3;
-    }
-
-    .card {
-        background-color: #FCF6E8;
-        font-weight: bold;
-        border-radius: 0;
-
-        box-shadow: .5em .5em 0 0 black;
-        
-    }
-
-    h1 {
-        font-weight: bold;
-        color: black
-    }
-
-    .form-custom {
-        background-color: #fcf6e8;
-        border: .1em solid #dbcfc3;
-        transition: linear all .2s;
-    }
-
-    .form-custom:focus {
-        background-color: #fcf6e8;
-        border: .2em solid black;
-        box-shadow: none
-    }
-</style>
 
 
 
@@ -61,21 +30,21 @@
                 <div class="mb-3">
                     <label for="mensaje" class="form-label">Mensaje:</label>
                     @Html.TextAreaFor(f => f.mensaje, new { @class = "form-control form-custom" })
+                    @Html.ValidationMessageFor( f => f.mensaje, "", new{ @class="bg-danger rounded text-center text-light mt-2 d-block"})
                 </div>
                 <div class="mb-3">
                     <label for="apodo" class="form-label">Apodo(opcional):</label>
                     @Html.TextBoxFor(f => f.apodo, new { @class = "form-control form-custom" })
-
                 </div>
                 <div class="mb-3">
                     El mensaje anónimo llegará por:
                     <div class="form-check ms-1">
-                        @Html.CheckBoxFor(f => f.publicarTwitter, new { @class = "form-check-input " })
+                        @Html.CheckBoxFor(f => f.publicarTwitter, new { @class = "form-check-input form-custom" })
                         <label class="form-check-label" for="publicarTwitter">Publicar en Twitter</label>
                     </div>
 
                     <div class="form-check ms-1">
-                        @Html.CheckBoxFor(f => f.publicarEmail, new { @class = "form-check-input " })
+                        @Html.CheckBoxFor(f => f.publicarEmail, new { @class = "form-check-input form-custom" })
                         <label class="form-check-label" for="enviarEmail">Enviar por correo electrónico</label>
                     </div>
 
