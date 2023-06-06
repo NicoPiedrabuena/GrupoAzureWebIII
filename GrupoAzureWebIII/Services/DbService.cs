@@ -45,8 +45,16 @@ namespace GrupoAzureWebIII.Services
                 destinatario = destinatario
             };
 
-            _dbContext.Mensaje.Add(mensajeEntity);
-            _dbContext.SaveChanges();
+            try
+            {
+
+                _dbContext.Mensaje.Add(mensajeEntity);
+                _dbContext.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
 
             return true;
         }
