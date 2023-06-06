@@ -13,10 +13,33 @@
 
 <style>
     body {
-        background-image: url("@Url.Content("~/images/img.jpg")");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
+        background-color: #DBCFC3;
+    }
+
+    .card {
+        background-color: #FCF6E8;
+        font-weight: bold;
+        border-radius: 0;
+
+        box-shadow: .5em .5em 0 0 black;
+        
+    }
+
+    h1 {
+        font-weight: bold;
+        color: black
+    }
+
+    .form-custom {
+        background-color: #fcf6e8;
+        border: .1em solid #dbcfc3;
+        transition: linear all .2s;
+    }
+
+    .form-custom:focus {
+        background-color: #fcf6e8;
+        border: .2em solid black;
+        box-shadow: none
     }
 </style>
 
@@ -24,11 +47,10 @@
 
 @using (Html.BeginForm("EnviarMensaje","Home", FormMethod.Post))
 {
-
     <h1 class="">Tu Secr3to</h1>
 
     <div class="container d-flex justify-content-center">
-        <div class="card">
+        <div class="card border-4 border-dark">
             
             
             @if (mensajeError != null)
@@ -38,11 +60,11 @@
             <div class="card-body">
                 <div class="mb-3">
                     <label for="mensaje" class="form-label">Mensaje:</label>
-                    @Html.TextAreaFor(f => f.mensaje, new { @class = "form-control " })
+                    @Html.TextAreaFor(f => f.mensaje, new { @class = "form-control form-custom" })
                 </div>
                 <div class="mb-3">
                     <label for="apodo" class="form-label">Apodo(opcional):</label>
-                    @Html.TextBoxFor(f => f.apodo, new { @class = "form-control" })
+                    @Html.TextBoxFor(f => f.apodo, new { @class = "form-control form-custom" })
 
                 </div>
                 <div class="mb-3">
@@ -60,10 +82,10 @@
                     </div>
                     <div class="mb-3">
                         <label for="user" class="form-label">Usuario/E-mail:</label>
-                    @Html.TextBoxFor(f => f.user,new {placeholder = "Usuario de Twitter sin @" })
+                    @Html.TextBoxFor(f => f.user,new {placeholder = "Usuario de Twitter sin @", @class="form-control form-custom" })
 
                 </div>
-                <button type="submit" class="btn btn-lg btn-primary w-100 ofw-bold">Enviar</button>
+                <button type="submit" class="btn btn-lg btn-outline-dark border-5 w-100 fw-bold">Enviar</button>
 
 
             </div>
