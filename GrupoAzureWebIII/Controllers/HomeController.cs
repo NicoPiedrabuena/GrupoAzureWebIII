@@ -40,9 +40,9 @@ namespace GrupoAzureWebIII.Controllers
         {
             return View();
         }
-        public IActionResult Confirmacion()
+        public IActionResult Confirmacion(List<Mensaje> model)
         {
-            return View();
+            return View(model);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -74,11 +74,11 @@ namespace GrupoAzureWebIII.Controllers
                     if (tweetGuardado)
                     {
                         // 
-                        ViewBag.mensajeEstado = "El tweet fue publicado, y fue guardado.";
+                        TempData["mensajeEstado"] = "El tweet fue publicado y fue guardado.";
                         return RedirectToAction("Confirmacion");
                     }
 
-                    ViewBag.mensajeEstado = "El tweet fue publicado, pero no puedo ser guardado.";
+                    TempData["mensajeEstado"] = "El tweet fue publicado, pero no pudo ser guardado.";
                     return RedirectToAction("Confirmacion");
 
 
@@ -96,8 +96,19 @@ namespace GrupoAzureWebIII.Controllers
                 bool mailEnviado = await _emailService.EnviarEmail(form.mensaje, form.user);
                 if (mailEnviado)
                 {
-                    // Hacer algo después de publicar en Twitter
+                    bool emailGuardado = _dbService.CrearModel(form);
+                    if (emailGuardado)
+                    {
+                        var mensajes = _dbService.ObtenerMensajes();
+                        TempData["mensajeEstado"] = "El mensaje fue enviado y fue guardado.";
+                        return RedirectToAction("Confirmacion", mensajes);
+
+
+                    }
+
+                    TempData["mensajeEstado"] = "El mensaje fue enviado, pero no pudo ser guardado.";
                     return RedirectToAction("Confirmacion");
+                
                 }
                 else
                 {
@@ -110,5 +121,16 @@ namespace GrupoAzureWebIII.Controllers
             return View("Error");
 
         }
+
+        public IActionResult MostrarMensajes()
+        {
+            //se llama al metodo del servicio "DbService" para obtener los mensajes de la base de datos
+            var mensajes = _dbService.ObtenerMensajes(); 
+
+            return View("Mensajes",mensajes);
+        }
+
+
+
     }
 }
