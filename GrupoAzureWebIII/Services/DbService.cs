@@ -50,5 +50,12 @@ namespace GrupoAzureWebIII.Services
 
             return true;
         }
+
+        public List<Mensaje> ObtenerMensajes()
+        {
+            return _dbContext.Mensaje.ToList();
+        }
+
+
     }
 }

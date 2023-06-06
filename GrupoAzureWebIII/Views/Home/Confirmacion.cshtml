@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Confirmación";
-    var mensajeEstado = ViewBag.mensajeEstado;
+    var mensajeEstado = TempData["mensajeEstado"];
+    @model List<Mensaje>;
 }
 
 @if (mensajeEstado != null)
@@ -8,6 +9,10 @@
     <div class="alert alert-success mx-3 mt-3">@mensajeEstado</div>
 }
 
-<h1>Confirmación</h1>
+<h1>Confirmación de Envio </h1>
 
-<p>¡Gracias por enviar el formulario!</p>
+<button onclick="location.href='@Url.Action("Index", "Home")'" class="btn btn-primary">¡volver a publicar o enviar un mensaje!</button>
+
+
+
+

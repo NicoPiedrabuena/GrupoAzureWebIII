@@ -7,11 +7,11 @@ var connection = String.Empty;
 if (builder.Environment.IsDevelopment())
 {
     builder.Configuration.AddEnvironmentVariables().AddJsonFile("appsettings.json");
-    connection = builder.Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING");
+    connection = builder.Configuration.GetConnectionString("AZURE_SQL");
 }
 else
 {
-    connection = Environment.GetEnvironmentVariable("AZURE_SQL_CONNECTIONSTRING");
+    connection = Environment.GetEnvironmentVariable("AZURE_SQL");
 }
 
 builder.Services.AddDbContext<MensajeDbContext>(options =>
