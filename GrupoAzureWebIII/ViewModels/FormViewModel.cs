@@ -8,10 +8,8 @@ namespace GrupoAzureWebIII.ViewModels
         public string mensaje { get; set; }
         public bool publicarTwitter { get; set; }
         public bool publicarEmail { get; set; }
-
-        public string apodo { get; set; }
-        public string user { get; set; }
-
-
+        public string? apodo { get; set; }
+        public string? user { get; set; }
+ 
     }
 }
