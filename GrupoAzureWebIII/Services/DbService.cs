@@ -64,6 +64,12 @@ namespace GrupoAzureWebIII.Services
             return _dbContext.Mensaje.ToList();
         }
 
+        public int getNumberOfSecretsInADay(DateTime currentDay)
+        {
+            //return _dbContext.Mensaje.Count( m => m.dateCreated.Date == currentDay.Date);
+            return 15;
+        }
+
 
     }
 }

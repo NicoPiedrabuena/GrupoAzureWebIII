@@ -136,7 +136,26 @@ namespace GrupoAzureWebIII.Controllers
             return View();
         }
 
+        [HttpPost]
+        public async Task<IActionResult> GetSecretosEnUnDia()
+        {
+            //obtengo el día actual
+            //obtengo el conteo de secretos de la base propia
+            //hago el tuit con la cantidad de mensajes realizados en el dia
+            DateTime currentDay = DateTime.Now;
+            int numberOfSecretsInADay = _dbService.getNumberOfSecretsInADay(currentDay);
 
+            bool isPublished = await _twitterService.PublicarTweet(
+                $"Se publicaron {numberOfSecretsInADay} tuits en el día {currentDay.ToString("dd/MM/yyyy")}!",
+                "Tu S3creto",
+                null);
+
+            Console.WriteLine(numberOfSecretsInADay);
+
+            return isPublished 
+                ? Ok("Se ha publicado el tuit") 
+                : BadRequest("No se ha podido publicar el tuit");
+        }
 
     }
 }

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrupoAzureWebIII", "GrupoAzureWebIII\GrupoAzureWebIII.csproj", "{9574CB2D-789B-47ED-8640-87706722B6D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnviarMail", "EnviarMail\EnviarMail.csproj", "{3EBA0A22-E06E-41C2-9E90-EF2505F2F0A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnviarMail", "EnviarMail\EnviarMail.csproj", "{3EBA0A22-E06E-41C2-9E90-EF2505F2F0A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

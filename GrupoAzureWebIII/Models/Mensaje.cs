@@ -14,5 +14,8 @@ namespace GrupoAzureWebIII.Models
         public String remitente { get; set; }
         public String destinatario { get; set; }
 
+        [DataType(DataType.Date)]
+        public DateTime dateCreated { get; set; }
+
     }
 }
